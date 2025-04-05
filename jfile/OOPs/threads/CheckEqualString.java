@@ -1,0 +1,16 @@
+wwwwwimport java.io.*;
+import java.lang.String;
+
+class CheckEqualString {
+   public static void main(String[] args) throws IOException {
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+      System.out.println("Enter a word");
+      String sc = br.readLine();
+      System.out.println("Enter a word");
+      String cs = br.readLine();
+      if(sc.equals(cs))
+      System.out.println("Both are equals");
+      else 
+      System.out.println("Not equal");
+   }
+}
