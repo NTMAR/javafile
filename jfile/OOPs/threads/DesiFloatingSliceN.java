@@ -1,4 +1,4 @@
-wimport java.io.*;
+import java.io.*;
 
 class DesiFloatingSliceN extends Thread {
     int slash, k;
